@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Wlecome To My First Website</title>
+  </head>
+
+  <body>
+      <header class="header">
+        <nav class="navbar"></nav>
+          <a href="#" class="logo"> Lelo</a>
+          <a href="#">Home</a>
+          <a href="#">AboutMe</a>
+          <a href="#">ContactMe</a>
+        </nav>
+      </header>
+  </body>
+
+
+</html>
+
+A young entrepreneur from Northern Cape seeks a Sexology degree to change sex culture through clinical educational approaches. A survivor of abuse, she believes knowledge empowers people to make informed decisions.
+<img src="./618A7712.JPG" height="170" width="120">

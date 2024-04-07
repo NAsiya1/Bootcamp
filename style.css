@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: lavenderblush;
+    font-size: 18px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a {
+    font-size: 18px;
+    color: goldenrod;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover {
+    color: gold;
+}
+.image-banner {
+    height: 140vh;
+    display: flex;
+    margin-left: 130px;
+    align-items: center;
+
+}
+.home{
+    height: 18vh;
+    background: url(./Slide11.PNG) no-repeat;
+    background-size: 170px;
+    background-position: center;
+    background-position-x: right;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+}
+.home-content{
+    background: transparent;
+    max-width: 700px;
+    margin-left: 150px;
+}
+.home-smi{
+    position: absolute;
+    top: 30cm;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+.home-smi a {
+    margin-bottom: 2cm;
+    display: inline;
+    align-items: last baseline;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    font-size: 35px;
+}
+.home-smi a:hover{
+    background-color: goldenrod;
+    color: goldenrod;
+}
+.home-address {
+    position: absolute;
+    top: 27cm;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+}
+.home-address-content {
+    position: absolute;
+    top: 27.7cm;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+    font-size: small;
+}
+.map {
+    position: absolute;
+    top: 26.9cm;
+    right: 0;
+    margin-right: 140px;
+}
+.aboutus {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    background: url(./Slide1.PNG) no-repeat;
+    background-size: 250px;
+    background-position: center;
+    background-position-x: right;
+    margin-right: 120px;
+}
+.aboutus-content {
+    background: transparent; 
+    max-width: 700px;
+    margin-left: 35px;
+}
+.contactus {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.contactus-content {
+    background: transparent;
+    max-width: 500px;
+    margin-left: 35px;
+}
+.contactus-banner {
+    height: 5cm;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
