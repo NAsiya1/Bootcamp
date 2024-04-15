@@ -4,16 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background: lavenderblush;
+    background: beige;
     font-size: 18px;
 }
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
-    background: lavenderblush;
+    background:  rgb(243, 243, 124);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +20,10 @@ body{
 }
 .navbar a {
     font-size: 18px;
-    color: goldenrod;
+    color: rgb(114, 86, 16);
     font-weight: 500;
     margin-left: 35px;
+    justify-content: space-around;
 }
 .navbar a:hover {
     color: gold;
@@ -37,22 +37,25 @@ body{
 }
 .home{
     height: 18vh;
-    background: url(./Slide11.PNG) no-repeat;
     background-size: 170px;
     background-position: center;
     background-position-x: right;
     margin-right: 120px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .home-content{
     background: transparent;
     max-width: 700px;
-    margin-left: 150px;
+    margin-left: 90px;
+}
+.home-img {
+    border-radius: 50%;
 }
 .home-smi{
     position: absolute;
-    top: 30cm;
+    top: 32cm;
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -73,7 +76,7 @@ body{
 }
 .home-address {
     position: absolute;
-    top: 27cm;
+    top: 29cm;
     width: 300px;
     display: flex;
     align-items: center;
@@ -81,7 +84,7 @@ body{
 }
 .home-address-content {
     position: absolute;
-    top: 27.7cm;
+    top: 29.7cm;
     width: 84px;
     display: flex;
     align-items: center;
@@ -90,7 +93,7 @@ body{
 }
 .map {
     position: absolute;
-    top: 26.9cm;
+    top: 28.9cm;
     right: 0;
     margin-right: 140px;
 }
@@ -98,30 +101,39 @@ body{
     height: 110vh;
     display: flex;
     align-items: center;
-    background: url(./Slide1.PNG) no-repeat;
     background-size: 250px;
     background-position: center;
     background-position-x: right;
     margin-right: 120px;
+    justify-content: space-around;
 }
 .aboutus-content {
-    background: transparent; 
+    background: fixed;
     max-width: 700px;
     margin-left: 35px;
 }
-.contactus {
-    height: 60vh;
+.contactme {
+    height: 30vh;
     display: flex;
     align-items: center;
 }
-.contactus-content {
-    background: transparent;
-    max-width: 500px;
+.contactme-content {
     margin-left: 35px;
 }
-.contactus-banner {
-    height: 5cm;
-    display: flex;
-    align-items: center;
-    margin-left: 300px;
+.contactme-table{
+    height: 30vh;
+    margin-left: 35px;
+}
+.form-group{
+    padding-bottom: 15px;
+}
+.form-group label {
+    display: block;
+}
+.form-group input, .form-group textarea{
+    padding: 8px;
+    width: 50%;
+}
+.form-group button {
+    color: goldenrod;
 }
