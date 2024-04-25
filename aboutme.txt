@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nombulelo Asiya About Me</title>
+  </head>
+  <header class="header">
+    <a href="#" class="logo"><img src="./LOGO.png" height="50" width="75"></a>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="AboutMe.HTML">AboutMe</a>
+      <a href="ContactMe.HTML">ContactMe</a>
+    </nav>
+  </header>
+
+
+  <body>
+      <div class="aboutme-container">
+        <div class="aboutme-content">
+          <head>
+            <link rel="stylesheet" href="style.css">
+        </head>
+          <h1 style="color: goldenrod;"><b>About Me</b></h1>
+          <br>
+          <p>Greetings! I am delighted to introduce myself. I am a proud Kimberley native. Growing up in part of South Africa has shaped me into the person I am today. As someone who believes in the power of sharing our stories, I would like to take this opportunity to share mine with you.</p>
+            <br>
+          <p>I was born and raised in Kimberley, a city known for its diamond mining industry. From a young age, I was exposed to the harsh realities of life, including poverty and inequality. However, it was my high school experience that truly opened my eyes to the societal challenges faced by children and the youth in my community, as I moved on from high school, in South Africa.</p>
+            <br>
+          <p>As I was completing my high school education, I witnessed several of my classmates becoming teen parents. It broke my heart to see their dreams and aspirations put on hold because of their circumstances. I knew I had to do something to help put an end to this cycle. And that's when my journey with Hearts of Lavender began.</p>
+            <br>
+           <p>Hearts of Lavender is a non-profit organization that I founded intending to end teenage pregnancy and alleviate the societal challenges faced by children and youth. Through my personal life experiences and the stories of those around me, I realized that there was a dire need for comprehensive sexuality education in schools and homes and support for young people.</p>
+            <br>
+           <p>Throughout my vocational background, which includes working in administration, customer services, technical support, magazine writing, and psychosocial support for children, I have been able to develop skills that have been essential in running the organization. I have also had the opportunity to interact with children and youth from different backgrounds, and their stories have only reinforced my determination to make a positive impact in our society.</p>
+            <br>
+          <p>My primary goal with Hearts of Lavender is to create a society where all individuals are accepted and understood for who they are. At the same time, I am dedicated to eradicating the negative impacts of teenage pregnancy. To achieve this, we provide comprehensive sexuality education seminars and literature through books, pamphlets, and booklets. We also organize confidence-building workshops that focus on empowering young people to make the right choices regarding their sexual behavior and health.</p> 
+            <br>
+          <p>As I continue to work towards this goal, my final aim is to pursue a qualification in Sex Therapy. I believe that this will equip me with the necessary knowledge and skills to guide and advise our children and youth towards making informed decisions regarding their sexual health. My passion for creating a brighter future for the next generation drives me to push myself and strive for excellence in everything I do.
+          </p>
+          <br>
+          <br>
+          <h3><a href="ContactMe.HTML">Contact Me</a></h3>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="aboutme-info">
+          <h1>Personal Info</h1><br>
+          <p1><b>Name:</b> Nombulelo</p1><br>
+          <p2><b>Surname:</b> Asiya</p2><br>
+          <p3><b>Age:</b> 28</p3><br>
+          <p4><b>Likes</b> Poetry, Literature, Computers, Psychology</p4><br>
+          <p5></p5><b>Skills:</b><ul>
+            <li>Customer Satisfaction</li>
+            <li>Technical Support</li>
+            <li>Business Administration</li>
+            <li>General/Office Administration</li>
+            <li>Psychosocial Support</li>
+            <li>Facilitation</li>
+            <li>Presentation</li>
+          </ul></p5>
+          <br>
+          <hr>
+          <br>
+          <h2>Education</h2>
+          <ul>
+            <li>Matric - 2013</li>
+            <li>Introduction to Reception and Occupational Safety and Health Certification</li>
+            <li>Providing Psychosocial Support in Schools Certification</li>
+            <li>Digital Literacy Certification</li>
+            <li>Internet Safety Training Certification</li>
+          </ul>
+          <br>
+          <hr>
+          <br>
+          <h3>Experience</h3>
+          <ul>
+            <li>Customer Services October 2019 - February 2020 (CCI Durban)</li>
+            <li>Technical Services March 2020 - June 2020(CCI Durban)</li>
+            <li>Online Admin September 2020 - February 2023 (Freelance)</li>
+            <li>Staff Writer November 2022 - May 2023 (DIamond Magazine)</li>
+            <li>Care and Support Assistant (psychosocial support) & Educators Assistant May 2023 - September 2023 (Laerskool Vooruitsig)</li>
+            <li>Chairperson Hearts of Lavender June 2022 - Present</li>
+          </ul>
+          <br>
+          <hr>
+          <br>
+          <h3>Projects</h3>
+          <ul>
+            <li>10+ published articles <a href="www.diamondmagsa.co.za">www.diamondmagsa.co.za 2023</a></li>
+            <li>Seminar creation for Hearts of Lavender 2023</li>
+            <li>Workshop creation and facilitation for Hearts of Lavender 2023</li>
+            <li>Forbidden Fruit (an anthology of 10 short stories written by me for Hearts of Lavender) <a href="https://payhip.com/b/HU49k">payhip.com 2024</a></li>
+            <li>Psychosocial support presentation</li>
+            <li>mLab HTML personal website 2024</li>
+          </ul>
+        </div>
+      </div>
+   
+  </body>
+
+
+</html>

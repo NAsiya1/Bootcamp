@@ -1,0 +1,34 @@
+   <div><section class="home">
+      <div class="home-content">
+        <h3>Nombulelo Asiya</h3>
+      <p><b>Bio</b> Nombulelo Asiya, publically known as Lelo, 
+        is a chairwoman, entrepreneur, and social justice warrior from the Northern Cape, 
+        who is seeking a Sexology degree to change the culture of sex through clinical educational approaches. 
+        As a survivor of abuse, she believes that knowledge empowers people to make informed decisions.</p>
+        
+        <br>
+      <br>
+      <hr>
+      </div>
+      <img class="home-img" src="./Screenshot_20240406-152045.jpg" height="100" width="100"></img>
+    </div>
+      <div class="contact">
+      <h5>Contact Info</h5>
+    </div>
+      <div class="contact-info">
+        <p>
+          Cell: 081 509 5448
+          Email: nombuleloasiyana@gmail.com
+        </p>
+
+      </div>
+      <div class="home-address">
+        <h5>Address</h5>       
+      </div>
+      <div class="home-address-content">
+        <p>32 Dalham Rd
+          Klisserville
+          Kimberley
+          8301
+        </p>
+      </div>

@@ -24,6 +24,7 @@ body{
     font-weight: 500;
     margin-left: 35px;
     justify-content: space-around;
+    padding: 15px;
 }
 .navbar a:hover {
     color: gold;
@@ -41,17 +42,20 @@ body{
     background-position: center;
     background-position-x: right;
     margin-right: 120px;
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between
 }
 .home-content{
     background: transparent;
     max-width: 700px;
-    margin-left: 90px;
+    margin-left: 125px;
+    display: flex;
 }
 .home-img {
     border-radius: 50%;
+
+
 }
 .home-smi{
     position: absolute;
@@ -74,9 +78,25 @@ body{
     background-color: goldenrod;
     color: goldenrod;
 }
+.contact {
+    position: absolute;
+    top: 27cm;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 125px
+}
+.contact-info {
+    position: absolute;
+    top: 27.5cm;
+    width: 120px;
+    align-items: center;
+    margin-left: 125px;
+    font-size: small;
+}
 .home-address {
     position: absolute;
-    top: 29cm;
+    top: 0cm;
     width: 300px;
     display: flex;
     align-items: center;
@@ -85,11 +105,10 @@ body{
 .home-address-content {
     position: absolute;
     top: 29.7cm;
-    width: 84px;
-    display: flex;
     align-items: center;
     margin-left: 125px;
     font-size: small;
+    width: 100px;
 }
 .map {
     position: absolute;
@@ -97,20 +116,61 @@ body{
     right: 0;
     margin-right: 140px;
 }
-.aboutus {
-    height: 110vh;
+.aboutme-container {
+    height: 1500px;
     display: flex;
     align-items: center;
     background-size: 250px;
     background-position: center;
     background-position-x: right;
     margin-right: 120px;
-    justify-content: space-around;
+    justify-content: space-between
 }
-.aboutus-content {
+.aboutme-content {
     background: fixed;
-    max-width: 700px;
-    margin-left: 35px;
+    max-width: 500px;
+    margin-left: 120px;
+}
+.vertical-line {
+    width: 0px;
+    border-left: 1px solid rgb(194, 189, 189);
+    height: 75%;
+    float: right;
+    margin-left: 50px;
+    
+    
+}
+.aboutme-info {
+    margin-left: 85px;
+    height: 1025px;
+}
+.aboutme-info h1 {
+    width: 35%;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 600px;
+    border-radius: 10px;
+}
+.aboutme-info h2 {
+    width: 35%;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 600px;
+    border-radius: 10px;
+}
+.aboutme-info h3 {
+    width: 35%;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 600px;
+    border-radius: 10px;
+}
+.aboutme-info h4 {
+    width: 35%;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 600px;
+    border-radius: 10px;
 }
 .contactme {
     height: 30vh;
@@ -120,9 +180,24 @@ body{
 .contactme-content {
     margin-left: 35px;
 }
+.contactme-table input{
+    width: 300%;
+    padding-bottom: 15%;
+}
+.contactme-table textarea{
+    width: 300%;
+    padding-bottom: 100%;
+}
+.contactme-table label{
+    justify-content: space-around;
+}
 .contactme-table{
     height: 30vh;
-    margin-left: 35px;
+    margin-left: 300px;
+    max-width: 350px;
+    padding: 20px 75px;
+    justify-content: space-between;
+
 }
 .form-group{
     padding-bottom: 15px;
@@ -131,9 +206,37 @@ body{
     display: block;
 }
 .form-group input, .form-group textarea{
-    padding: 8px;
+    padding: 150px;
     width: 50%;
 }
 .form-group button {
     color: goldenrod;
+}
+.home-smi2{
+    position: absolute;
+    top: 24cm;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    right: 0;
+}
+.home-smi2 a {
+    margin-bottom: 2cm;
+    display: inline;
+    align-items: last baseline;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    font-size: 35px;
+}
+.home-smi2 a:hover{
+    background-color: goldenrod;
+    color: goldenrod;
+}
+.map2 {
+    position: absolute;
+    top: 18.9cm;
+    right: 0;
+    margin-right: 140px;
 }
